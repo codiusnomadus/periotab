@@ -1,10 +1,5 @@
 require "periotab/version"
+require "periotab/translator"
 
-class Periotab
-	def self.hi(language = 'english')
-		translator = Translator.new
-		translator.hi
-	end
+module Periotab
 end
-
-require 'periotab/translator'
