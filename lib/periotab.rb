@@ -1,5 +1,7 @@
 require "periotab/version"
 
 module Periotab
-  # Your code goes here...
+  class Hola
+  	puts "Hello world!"
+  end
 end
